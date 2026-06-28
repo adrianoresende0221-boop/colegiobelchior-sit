@@ -15,6 +15,8 @@ Acolhedor e direto, sem corporativês — fala com os pais como quem conhece os 
 
 *(Provisório — confirmar com exemplos reais do que incomoda.)*
 
+**Exceção registrada (2026-06-28):** títulos institucionais tipo H1 de página (ex: "Centro Educacional Caminho Suave: Uma Instituição de Excelência Pedagógica" na página Sobre) podem ser mais formais quando pedidos explicitamente pelo cliente — a regra de tom acolhedor vale pro restante do conteúdo (subtítulos, corpo de texto, CTAs).
+
 ## Estilo geral
 
 Mistura calor humano (referências ao dia a dia da escola, às crianças) com objetividade prática pros pais que querem saber de estrutura, segurança e resultado pedagógico.

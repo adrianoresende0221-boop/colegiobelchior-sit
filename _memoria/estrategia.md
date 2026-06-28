@@ -6,11 +6,11 @@
 
 ## Fase
 
-Site institucional construído (colegiobelchior/, 5 páginas, no GitHub), mas ainda não publicado: falta domínio, hospedagem, fotos reais da escola e o logo em alta resolução.
+Site institucional construído (colegiobelchior/, 5 páginas, no GitHub), com logo real e foto real da fachada já aplicados. Ainda não publicado: falta domínio e hospedagem. As 3 páginas de segmento (Infantil, Fund. I, Fund. II) usam fotos de turma geradas por IA como placeholder, à espera das fotos reais.
 
 ## Prioridade principal
 
-Publicar o site (registrar domínio + hospedagem tipo Netlify/Vercel) e completar os pendentes: fotos reais (fachada, turmas), logo oficial em arquivo, conteúdo revisado pela escola.
+Publicar o site (registrar domínio + hospedagem tipo Netlify/Vercel) e completar os pendentes: fotos reais de turma (Infantil, Fund. I, Fund. II), conteúdo revisado pela escola.
 
 ## O que pode esperar
 

@@ -9,7 +9,7 @@
 **Perfil:** Freelancer — esta pasta é o workspace dedicado a este cliente (único cliente ativo aqui)
 **Atende clientes:** Pais e responsáveis de alunos do Maternal ao 9º ano, região de Uberlândia-MG
 **Equipe:** Equipe pedagógica própria (tamanho não informado ainda)
-**Ferramentas:** Instagram @cecscaminhosuave (1,9k seguidores), Google Meu Negócio (4,9★, 27 avaliações), WhatsApp
+**Ferramentas:** Instagram @cecscaminhosuave (1,9k seguidores), Facebook (centroed.caminhosuave), Google Meu Negócio (4,9★, 27 avaliações), WhatsApp
 **Principais entregas:** Site institucional com captação de matrícula (3 seções: Infantil, Fund. I, Fund. II)
 
 ## Contexto adicional

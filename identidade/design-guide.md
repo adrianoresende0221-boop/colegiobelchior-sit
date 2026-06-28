@@ -61,10 +61,10 @@ Acolhedor, colorido e family-friendly (como o feed do Instagram: gradientes quen
 
 ## Logo
 
-- **Arquivo:** vi as duas versões do logo oficial no chat (badge completo "Centro Educacional Caminho Suave — Colégio Belchior Costa" e versão compacta "Colégio Belchior Costa") mas não consigo extrair o arquivo de uma imagem de chat — salvar os arquivos reais em `identidade/logo.png` (completo) e `identidade/logo-compacto.png` quando possível. Por ora o site usa um wordmark em texto como placeholder.
-- **Versão pra fundo escuro:** *(se tiver — ex: identidade/logo-branco.png)*
-- **Onde usar:** header do site, slide final do carrossel (CTA), header de propostas
-- **Tamanho sugerido:** largura entre 120-200px nos HTMLs
+- **Arquivo:** logo oficial recebida e em uso real no site, em `colegiobelchior/assets/LOGO.png` (arquivo original) e `colegiobelchior/assets/logo-cabecalho.png` (recorte sem a margem em branco, usado no `<header>` das 5 páginas). O ícone circular (anel vermelho + silhueta pai/filho) também foi recortado pra gerar o favicon (`favicon-32.png`, `apple-touch-icon.png`).
+- **Versão pra fundo escuro:** *(se tiver — ex: identidade/logo-branco.png)* — ainda não recebida; necessária se quiser a logo sobre o hero (hoje o hero usa foto de fundo, não a logo)
+- **Onde usar:** header do site (já aplicado), favicon (já aplicado), slide final do carrossel (CTA), header de propostas
+- **Tamanho sugerido:** 44px de altura no header desktop, 34px no mobile (já implementado em `css/style.css`)
 
 ---
 
@@ -76,4 +76,12 @@ Dias de semana, 7h às 18h. Fechado sábado e domingo. *(Confirmado pelo usuári
 
 ## Observações adicionais
 
-Paleta atualizada em 2026-06-27 com as cores reais confirmadas pelo usuário (vermelho/azul/amarelo) e fotos reais da fachada. Próximo ajuste fino: hex exatos se houver manual de marca, e os arquivos de logo em alta resolução.
+Paleta atualizada em 2026-06-27 com as cores reais confirmadas pelo usuário (vermelho/azul/amarelo) e fotos reais da fachada. Próximo ajuste fino: hex exatos se houver manual de marca.
+
+## Padrões visuais do site (implementados em 2026-06-28)
+
+- **Hero com foto de fundo:** cada página (Início, Sobre, Infantil, Fund. I, Fund. II) tem uma foto em tela cheia atrás do título, com degradê escuro (mais forte à esquerda, onde fica o texto, e na base, onde ficam os botões) pra garantir leitura branca sobre qualquer foto. A foto se move em parallax sutil acompanhando o scroll (CSS + JS leve, sem libs externas), funciona em PC e mobile. O texto do hero também reage ao scroll (translateY + fade), em sincronia com a foto, criando sensação de profundidade.
+- **Títulos do hero curtos e diretos:** desde 2026-06-28, os H1/subtítulos do hero das 5 páginas são frases curtas (ex: "Maternal ao 9º ano, em Uberlândia."), não parágrafos — prioriza leitura rápida e visual limpo sobre a foto.
+- **Object-position da foto da fachada (Início e Sobre):** em telas largas (acima de 860px), a foto da fachada usa `object-position: 33% 32%` (em vez de `center`) pra não cortar a placa "Colégio Belchior Costa" — o crop padrão centralizado tirava o texto da placa em viewports muito largos (ex: 1920px). No mobile o enquadramento padrão (`center 28%`) já funciona bem e foi mantido.
+- **Blobs decorativos:** formas orgânicas borradas (`blur(60px)`), nas 3 cores da marca (azul/amarelo/vermelho), opacidade baixa (~16%), flutuando bem lentamente (24s por ciclo) atrás de uma seção por página (ex: "Missão, visão e valores" na Sobre, "Por que famílias escolhem" na Home). Dá uma sensação de movimento/modernidade sem pesar visualmente — pensado pra não cair no erro de ficar "futurista demais" pra uma escola.
+- **Fotos de turma (Infantil, Fund. I, Fund. II):** ainda são imagens geradas por IA (estilo fotográfico realista, mesma sala/decoração entre as 3, cores combinando com cada segmento), usadas como placeholder até a escola enviar fotos reais das turmas. O `alt` dessas imagens não afirma que são fotos reais da escola, de propósito.
