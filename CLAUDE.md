@@ -1,11 +1,21 @@
-# MazyOS — Sistema operacional do negócio
+# MazyOS — Centro Educacional Caminho Suave
 
-Sua empresa roda em cima desse arquivo. Aqui ficam as regras de operação
-do MazyOS — como o Claude lê o contexto, aprende com correções, mantém
-tudo atualizado e cria skills novas conforme a operação evolui.
+Workspace dedicado ao cliente **Centro Educacional Caminho Suave — Colégio
+Belchior Costa** (Uberlândia-MG). Aqui ficam o contexto do negócio, o
+material de marketing e o site institucional, junto com as regras de
+operação do MazyOS — como o Claude lê o contexto, aprende com correções,
+mantém tudo atualizado e cria skills novas conforme a operação evolui.
 
-Esse arquivo é editável. Quando o `/instalar` rodar, ele complementa o
-final dessa página com as regras específicas do seu negócio.
+**Estrutura de pastas:**
+- `_memoria/` — quem é o cliente, como a escola fala, foco atual (matrícula 2026)
+- `identidade/` — marca do Caminho Suave aplicada nas entregas
+- `colegiobelchior/` — site institucional (Infantil, Fund. I, Fund. II)
+- `marketing/` — conteúdo, SEO, ads
+- `saidas/` — emails, documentos pontuais
+- `dados/` — arquivos a analisar
+
+Esse arquivo é editável. As regras gerais do MazyOS abaixo continuam
+valendo; o específico desse cliente está nos arquivos de `_memoria/`.
 
 ---
 
